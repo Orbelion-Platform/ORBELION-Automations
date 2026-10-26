@@ -12,4 +12,4 @@ Source reviewed: private framework revision 6bab643. Paths below refer to the pr
 | Default authorization closure | api/dependencies/__init__.py | No tenant-bound identity provider implemented |
 | CLI and HTTP interfaces | core/cli.py, api/routes/ | Synchronous execution |
 
-The private implementation document records an earlier 35-test local run. That historical result is not presented as a fresh public test run. Public CI validates only the public example and publication boundary.
+The private framework suite was rerun on 2026-10-26: 35 passed, 1 warning. See [execution evidence](EXECUTION_EVIDENCE.md) for the command, source revision, test references and limits. Public CI validates only the independent public example and publication boundary.
